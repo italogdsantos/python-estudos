@@ -1,0 +1,6 @@
+x = str(input('Digite uma frase: ')).upper().strip().replace('Á','A').replace('À','A').replace('Â','A').replace('Ã','A')
+y = x.count('A') + x.count('Á') + x.count('À') + x.count('Â') + x.count('Ã')
+z = x.find('A')
+print('A letra "A" apareceu {} vezes.'.format(y))
+print('A letra "A" apareceu pela primeira vez na posição {}.'.format(x.find('A')))
+print('A letra "A" apareceu pela última vez na posição {}.'.format(x.rfind('A')))

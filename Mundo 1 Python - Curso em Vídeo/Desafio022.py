@@ -1,0 +1,7 @@
+x = str(input('Digite seu nome completo: '))
+print(x.upper())
+print(x.lower())
+y = x.replace(' ','')
+print('O nome {} possui {} letras.'.format(x,len(y)))
+z = x.split()
+print('O nome {} possui {} letras.'.format(z[0],len((z[0]))))
